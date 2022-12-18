@@ -7,7 +7,7 @@ My university second semester assessment project.
 
 1.4 OBJETIVOS ESPECÍFICOS
 
-	Para se atingir o nosso objetivo geral, foram criados objetivos específicos para uma melhoria no sentido de praticidade e foco ao nosso objetivo geral, onde podemos destacar:
+•	Para se atingir o nosso objetivo geral, foram criados objetivos específicos para uma melhoria no sentido de praticidade e foco ao nosso objetivo geral, onde podemos destacar:
 •	Integrar a API de consultas por CNPJ ao aplicativo principal.
 •	Criar uma interface simples e intuitiva para o usuário com uma tabela para exibição dos dados e uma tela de edição dos cadastros já existentes.
 •	Criar um banco capaz de suprir as necessidades do aplicativo.	
