@@ -1,17 +1,17 @@
 # A3_2Semester
 My university second semester assessment project.
 
-# 1.3 OBJETIVO GERAL
+# 1 MAIN OBJECTIVES
 	
 •	Armazenar dados de cadastro de clientes e forma informatizada, e gerar novos cadastros.
 
-#1.4 OBJETIVOS ESPECÍFICOS
+#1.1 OBJETIVOS ESPECÍFICOS
 
 •	Integrar a API de consultas por CNPJ ao aplicativo principal.
 •	Criar uma interface simples e intuitiva para o usuário com uma tabela para exibição dos dados e uma tela de edição dos cadastros já existentes.
 •	Criar um banco capaz de suprir as necessidades do aplicativo.	
 
-# 2 DESENVOLVIMENT# O
+# 2 DESENVOLVIMENTO
 
 # 2.1 SOFTWARES
 
@@ -27,7 +27,8 @@ No aplicativo  temos 5 classes sendo 2 delas interfaces gráficas, 1 classe auxi
 2.3 BANCO DE DADOS
 	 
 2.3.1 MOVIMENTAÇÕES DE DADOS	
-	Inserção de dados
+
+•Inserção de dados
 public static void insert (String NomeFantasia, String RazaoSocial, String CNPJ, String CNAE, String CNAECodigo, String CEP, String Abertura, String Telefone, String Email, String Logradouro, String status) 
 {
     String sql = "INSERT INTO `atributos` (`NomeFantasia`, `RazaoSocial`, `CNPJ`, `CNAE`, `CNAECodigo`, 
@@ -36,13 +37,15 @@ public static void insert (String NomeFantasia, String RazaoSocial, String CNPJ,
     + Abertura + "','" + Telefone + "','" + Email + "','" + Logradouro + "','" + status + "');";
     exec(sql);
 }
-	Exclusão de dados
+
+•Exclusão de dados
 public static void delete (String id) 
 {
     String sql = "DELETE FROM `atributos` WHERE CNPJ ='" + id + "';";
     exec(sql);
 }
-	Edição de dados
+
+•Edição de dados
 public static void update(String NomeFantasia, String RazaoSocial, String CNPJ, String CNAE, String CNAECodigo, String CEP, String Abertura, String Telefone, String Email, String Logradouro) 
 {
     String sql = "UPDATE atributos " + "SET NomeFantasia = '" + NomeFantasia + "', RazaoSocial = '" +   
@@ -51,7 +54,8 @@ public static void update(String NomeFantasia, String RazaoSocial, String CNPJ, 
     + "', Email = '"   + Email + "', Logradouro = '" + Logradouro + "'  WHERE CNPJ ='" + CNPJ + "';";
     exec(sql);
 }
-	Leitura de dados
+
+•Leitura de dados
 public List<Atributos> read()
 {
     List<Atributos> atributos = new ArrayList<>();
