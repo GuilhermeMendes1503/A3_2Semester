@@ -133,7 +133,7 @@ return atributos;
 •RF3 – O sistema deve mostrar as fichas cadastradas;<BR>
 •RF4 – O sistema deve armazenar as fichas;<BR>
 •RF5 – O sistema deve realizar a inserção de fichas a partir do CNPJ informado.<BR>
-<BR><BR>
+<BR>
 ### 2.8.2 REQUISITOS NÃO FUNCIONAIS
 •RNF1 – O aplicativo deverá aceitar todos os dados padrões do CNPJ;<BR>
 •RNF2 – A interface terá que ser limpa e fácil de utilizar;<BR>
