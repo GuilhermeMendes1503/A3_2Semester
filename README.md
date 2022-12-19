@@ -1,6 +1,6 @@
 
 # A3 2ⁿᵈ Semester
-My university second semester assessment project.
+My university second semester assessment project, this was the last evaluative test. It is about a app for managing clients registers.
 
 # 1 MAIN OBJECTIVES
 • Make the integration of the consult API in the main app.
@@ -126,17 +126,17 @@ return atributos;
  
  ![Class diagram](https://github.com/GuilhermeMendes1503/A3_2Semester/blob/main/Database_Iteractions/MER.png?raw=true?raw=true)
 
-## 2.8 REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
-### 2.8.1 REQUISITOS FUNCIONAIS
-•RF1 – O sistema deve permitir a exclusão de fichas;<BR>
-•RF2 – O sistema deve permitir a edição de fichas;<BR>
-•RF3 – O sistema deve mostrar as fichas cadastradas;<BR>
-•RF4 – O sistema deve armazenar as fichas;<BR>
-•RF5 – O sistema deve realizar a inserção de fichas a partir do CNPJ informado.<BR>
+## 2.8 FUNCTIONAL AND NON-FUNCTIONAL REQUIREMENTS
+### 2.8.1 FUNCTIONAL REQUIREMENTS
+•RF1 – The system should allow excluding of records;<BR>
+•RF2 – The system should allow editing of records;<BR>
+•RF3 – The system should show the records;<BR>
+•RF4 – The system must store records;<BR>
+•RF5 – The system must perform the insertion of new records from the informed CNPJ(National Register of Legal Entities).<BR>
 <BR>
-### 2.8.2 REQUISITOS NÃO FUNCIONAIS
-•RNF1 – O aplicativo deverá aceitar todos os dados padrões do CNPJ;<BR>
-•RNF2 – A interface terá que ser limpa e fácil de utilizar;<BR>
-•RNF3 – O aplicativo tem como foco o Sistema operacional Windows;<BR>
-•RNF4 – O aplicativo será feito com em JAVA com o banco em SQL;<BR>
-•RNF5 – O Aplicativo terá inserção de dados apenas pela API para evitar dados incorretos.<BR>
+### 2.8.2 NON-FUNCTIONAL REQUIREMENTS
+•RNF1 – The application must accept all standard CNPJ information;<BR>
+•RNF2 – The interface must be clean and easy to use;<BR>
+•RNF3 – The application focuses on the Windows Operating System;<BR>
+•RNF4 – The application will be made in JAVA with SQL database;<BR>
+•RNF5 – The Application will insert data only through the API to avoid incorrect data.<BR>
