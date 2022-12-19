@@ -128,15 +128,15 @@ return atributos;
 
 ## 2.8 REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
 ### 2.8.1 REQUISITOS FUNCIONAIS
-•	RF1 – O sistema deve permitir a exclusão de fichas;
-•	RF2 – O sistema deve permitir a edição de fichas;
-•	RF3 – O sistema deve mostrar as fichas cadastradas;
-•	RF4 – O sistema deve armazenar as fichas;
-•	RF5 – O sistema deve realizar a inserção de fichas a partir do CNPJ informado
+•RF1 – O sistema deve permitir a exclusão de fichas;
+•RF2 – O sistema deve permitir a edição de fichas;
+•RF3 – O sistema deve mostrar as fichas cadastradas;
+•RF4 – O sistema deve armazenar as fichas;
+•RF5 – O sistema deve realizar a inserção de fichas a partir do CNPJ informado
 <BR>
 ### 2.8.2 REQUISITOS NÃO FUNCIONAIS
-•	RNF1 – O aplicativo deverá aceitar todos os dados padrões do CNPJ;
-•	RNF2 – A interface terá que ser limpa e fácil de utilizar;
-•	RNF3 – O aplicativo tem como foco o Sistema operacional Windows;
-•	RNF4 – O aplicativo será feito com em JAVA com o banco em SQL;
-•	RNF5 – O Aplicativo terá inserção de dados apenas pela API para evitar dados incorretos.
+•RNF1 – O aplicativo deverá aceitar todos os dados padrões do CNPJ;
+•RNF2 – A interface terá que ser limpa e fácil de utilizar;
+•RNF3 – O aplicativo tem como foco o Sistema operacional Windows;
+•RNF4 – O aplicativo será feito com em JAVA com o banco em SQL;
+•RNF5 – O Aplicativo terá inserção de dados apenas pela API para evitar dados incorretos.
