@@ -128,7 +128,7 @@ return atributos;
 
 ## 2.8 REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
 ### 2.8.1 REQUISITOS FUNCIONAIS
-•RF1 – O sistema deve permitir a exclusão de fichas;
+•RF1 – O sistema deve permitir a exclusão de fichas;<BR>
 •RF2 – O sistema deve permitir a edição de fichas;
 •RF3 – O sistema deve mostrar as fichas cadastradas;
 •RF4 – O sistema deve armazenar as fichas;
